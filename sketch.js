@@ -13,7 +13,7 @@ var sketch = function(p){
     } 
 
     p.draw =  function () {
-        p.background(255);
+        p.background(200);
         p.fill("red");
         p.ellipse(circleX,circleY, circleSize,circleSize); 
         circleX = circleX + speedX;
