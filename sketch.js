@@ -9,7 +9,7 @@ var sketch = function(p){
     
     //for any p5 specific functions, we need to put p. instead of just calling them normally
     p.setup = function() { 
-      p.createCanvas(800, 500);
+      p.createCanvas(p.windowWidth, p.windowHeight);
     } 
 
     p.draw =  function () {
